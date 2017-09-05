@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    color: gray;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a { /* links within "nav" container */
+padding: 15px;
+padding-bottom: 4px;
+font-size: 1.8em;
+text-decoration: none; /* removes underline */
+color: white; /* by default, links are blue */
+}
+
+nav a:hover {/*pseudo class*/
+border-bottom: 2px orange solid;
+font-size: 2em;
+transition: .9s; /* transition effect */
+}
+
+
+#Profilepic {
+    border-radius: 100px;
+}
+
+img { border-radius: 60px;
+position: static;
+vertical-align: 50% 
+}
+#content {
+    text-align: center;
+}
+
+aside {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 50px;
+    width: 400px;
+    font-size: 1.3em;
+}
+aside, section {
+    float: left;
+}
+
+
+footer {
+    clear: left;
+    color: yellow;
+    font-size: small;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+#content {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
