@@ -69,7 +69,7 @@ function game() {
         display_items($comp_item);
         
         // Add a go back link
-            echo '<div><a href="./">Play Again!</a></div>';
+            echo '<form><input type="submit" value="Play again" /></form>'; // <a href="./">Play Again!</a></div>';
         
     else :
         
