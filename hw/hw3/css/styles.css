@@ -1,0 +1,28 @@
+legend {
+            text-align: center;
+
+        }
+
+        h1 {
+            color: red ;
+            background-color: white;
+            text-align: center;
+            font-size: 70px;
+            font-style: normal;
+            padding: 20px;
+            padding-bottom:10px;
+        }
+        form {
+            text-align: center;
+            background-color:white;
+             border-radius:20px;
+               border: solid 2px black;
+
+        }
+        body {
+           text-align: center;
+           background-color: white;
+        }
+        fieldset {
+            text-align: center;
+        }
