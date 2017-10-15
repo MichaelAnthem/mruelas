@@ -9,7 +9,8 @@ $stmt = $conn -> prepare ($sql);
 $stmt -> execute();
 $record = $stmt -> fetch();
 
-echo $record['firstName'] . "  " . $record['biography'];
+echo"<h1> Author Info </h1>";
+echo "<span id='authorNameIFrame'>".$record['firstName'] . "</span> <span id='authorBiographyIFrame'> :" . $record['biography'] . "</span> <br> <img src='". $record['picture']."''></img> ";
 
 ?>
 
