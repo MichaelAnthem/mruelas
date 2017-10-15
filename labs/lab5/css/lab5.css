@@ -1,0 +1,24 @@
+body{
+    width:90%;
+    margin:auto;
+
+}
+#authorName{
+    font-weight: bold;
+    color:orange;
+}
+a {
+    text-decoration: none !important;
+}
+#authorNameIFrame{
+    font-weight: bold;
+    
+}
+img{
+    height:100px;
+    width:100px;
+}
+iframe{
+    border:none;
+    border-top:1px solid black;
+}
