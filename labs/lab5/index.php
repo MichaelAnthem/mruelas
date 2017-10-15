@@ -92,9 +92,10 @@ function getRandomQuote() {
 <html>
     <head>
         <title> Lab 5: Random Famous Quote Generator </title>
+        
     </head>
     <body>
-
+<link rel="stylesheet" href="css/lab5.css" type="text/css" />
 
     <?=getRandomQuote()?>        
 
