@@ -1,0 +1,32 @@
+body{
+    width:90%;
+    margin:auto;
+    background-color: lightblue;
+    font-style: italic;
+    text-shadow: 20px;
+    color:white;
+    font-family: monospace;
+
+}
+#authorName{
+    font-weight: bold;
+    color:coral;
+}
+a {
+    text-decoration: none !important;
+}
+#authorNameIFrame{
+    font-weight: bold;
+    
+}
+.img{
+    height:100px;
+    width:100px;
+}
+iframe{
+    border:none;
+    border-top:1px solid black;
+}
+h1{
+    background-color: coral;
+}
