@@ -1,0 +1,23 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.form{
+   background-color: #77a3c3;
+}
+#authorName{
+    font-weight: bold;
+    color:coral;
+}
+h1{
+    background-color: coral;
+}
+body{
+    width:90%;
+    margin:auto;
+    background-color: lightblue;
+    font-style: italic;
+    text-shadow: 20px;
+    color:white;
+    font-family: monospace;
+
+}
