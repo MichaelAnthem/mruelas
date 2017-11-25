@@ -1,50 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Lady Gaga or Madonna Song?</title>
-  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/styles.css">
+<title>JS Quiz</title>
+ <!-- jQuery library -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="css/styles.css"/>
+  <!-- jQuery library -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<meta charset="utf-8"/>
 </head>
+
 <body>
-  <header>
-    <h1>Lady Gaga <span class="or">or</span> Madonna Song?</h1>
-        <a data-scroll href="#main" class="engage">
-      Dance time! &#10549;
-    </a>
-  </header>
-  
-  <div id="main" class="main">
-    <div class="quiz">
-      <p class="name" ></p>
-      <p class="results"></p>
-      <p class="score"></p>
-      <p class="thanks">Thanks for playing!</p>
-      <div class="options">
-        <div class="choice" id="gaga">Lady Gaga</div>
-        <div class="choice" id="madonna">Madonna</div>
-      </div>
-      <div class="generate" id="generate">next</div>
-    </div>
+  <div id="container">
+    <header>
+      <h1> Quiz</h1>
+      <p>Test yourself in <strong>knowledge</strong></p>
+    </header>
+      <section>
+        <div id="results"></div>
+        <form name="quizForm" onsubmit="return submitAnswers()">
+            <h3>1. Who is the current president of the United States?</h3>
+            <input type="radio" name="q1" value="a" id="q1a">a. Barack Obama<br>
+            <input type="radio" name="q1" value="b" id="q1b">b. George Bush<br>
+            <input type="radio" name="q1" value="c" id="q1c">c. Donald Trump<br>
+            <input type="radio" name="q1" value="d" id="q1d">d. Ronald Reagen<br>
+            
+            <h3>2. What year did the Great Depression begin?</h3>
+            <input type="radio" name="q2" value="a" id="q2a">a. 1929<br>
+            <input type="radio" name="q2" value="b" id="q2b">b. 1922<br>
+            <input type="radio" name="q2" value="c" id="q2c">c. 1939<br>
+            <input type="radio" name="q2" value="d" id="q2d">d. 1933<br>
+            
+            <h3>3. How many original colonies were there?</h3>
+            <input type="radio" name="q3" value="a" id="q3a">a. 13<br>
+            <input type="radio" name="q3" value="b" id="q3b">b. 16<br>
+            <input type="radio" name="q3" value="c" id="q3c">c. 09<br>
+            <input type="radio" name="q3" value="d" id="q3d">d. 11<br>
+            
+            <h3>4. Puerto Rico is a state?</h3>
+            <input type="radio" name="q4" value="a" id="q4a">a. True<br>
+            <input type="radio" name="q4" value="b" id="q4b">b. False<br>
+        
+            <h3>5. Which is the 50th state?</h3>
+            <input type="radio" name="q5" value="a" id="q5a">a. Hawaii<br>
+            <input type="radio" name="q5" value="b" id="q5b">b.Alaska <br>
+            <input type="radio" name="q5" value="c" id="q5c">c.New Mexico <br>
+            <input type="radio" name="q5" value="d" id="q5d">d.Arizona<br>
+            
+             <h3>6. What year the civil rights movement begin?</h3>
+            <input type="radio" name="q6" value="a" id="q6a">a.1954<br>
+            <input type="radio" name="q6" value="b" id="q6b">b.1969 <br>
+            <input type="radio" name="q6" value="c" id="q6c">c.1964 <br>
+            <input type="radio" name="q6" value="d" id="q6d">d.1959<br>
+            <br><br>
+            <input type="submit" value="Submit Answers">
+        </form>
+      </section>
+      <footer>
+        <p>Copyright &copy; 2017, Ruelas</p>
+      </footer>
   </div>
-  
-  <footer class="clearfix">
-    <div class="left">
-      <h4>about</h4>
-      <p>I love both artists and this was the only thing that interested me!</p>
-    </div>
-    <div class="right">
-      <h4>Thoughts?</h4>
-      <p>This will be alot of fun!</p>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/functions.js"></script>
-  <script>
-    smoothScroll.init();
-  </script>
+<script type="text/javascript" src="js/functions.js"></script>
 </body>
 </html>
