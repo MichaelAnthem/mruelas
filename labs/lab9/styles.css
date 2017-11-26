@@ -1,0 +1,35 @@
+body {
+    background-color: powderblue;
+    padding-left: 40px;
+}
+h1 {
+    color: white;
+}
+p {
+    color: red;
+}
+input {
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#container {
+   width: 960px;
+   margin: auto;
+}
+li a {
+  text-decoration: none;
+}
+a { color: red; }
+ul { margin-left: 0; }
+a[title] {
+   color: green;
+}
