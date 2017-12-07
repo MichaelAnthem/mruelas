@@ -66,9 +66,9 @@ function addHotel(){
      </form>
 </nav> 
 <form method="post">
-   Hotel Name:  <input type="text" name="title"/><br>
+   Hotel Cost:  <input type="text" name="title"/><br>
    Hotel Type:  <input type="text" name="type"/><br>
-       Rated:
+       Level:
     <select name="category">
         <option value="Standard">Standard</option>
         <option value="Executive">Executive</option>
@@ -76,7 +76,7 @@ function addHotel(){
         <option value="Presidential">Presidential</option>
     </select>
     <br>
-         Hotel Category:
+         Hotel Name:
     <select name="categoryId">
         <option value="1001">Holiday Inn</option>
         <option value="1002">Best Western</option>
