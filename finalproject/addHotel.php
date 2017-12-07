@@ -45,13 +45,14 @@ function addHotel(){
         <style>
     section {
         padding: 5px;
-        background-color: white;
+        background-color: #4ABDAC;
+        color:black;
         box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.75);
         margin-top:-10px;
-        width:500px;
+        width:100%;
     }
     body {
-        background-image:url("img/");
+        background-image:url("img/flower.jpg");
         background-size: 100%;
     }
     
