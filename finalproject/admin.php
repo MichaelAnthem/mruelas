@@ -74,22 +74,7 @@ function getAllHotels(){
 
     <br />
     <table>
-<?php
-$movies = getAllHotels();
-   
-   foreach ($hotels as $hotel){
-        echo "<tr>";
-       echo "<td>".$hotel['title'] . "</td>";
-       echo "<td> <strong><a href='updateHotel.php?hotelId=".$hotel['hotelId']."'> Edit </a> </strong> </td>";
-       echo "<td> 
-               <form action='deleteHotel.php'  onsubmit='return confirmDelete(\"".$hotel['title']."\")' >
-                  <input type='hidden' name='hotelId' value='".$hotel['hotelId']."'>
-                  <input type='submit' value='Delete'>
-               </form>
-             </td>";
-       echo "</tr>";
-   }
-?>
+
     </table>
     </section>
     </body>

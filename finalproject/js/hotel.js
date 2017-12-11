@@ -11,8 +11,8 @@ $(document).ready(function(){
                 var records = JSON.parse(data);
                 // alert ("Title: " + records['title']);
                 $('#title').val(records['title']);
-                // alert ("Type: " + records['year']);
-                $('#year').text(records['year']);
+                // alert ("Cost: " + records['year']);
+                $('#year').text(records['cost']);
                 // alert ("Category: " + records['rated']);
                 $('#rated').text(records['rated']);
                 // alert ("CategoryId: " + records['category']);

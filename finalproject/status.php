@@ -5,7 +5,7 @@ $dbConn = getDatabaseConnection();
 function hotelAndRatings(){
 global $dbConn;
  echo "<h2>Hotels and Ratings</h2>";
-      $sql ="SELECT title, AVG(ratings) AS score
+      $sql ="SELECT AVG(ratings) AS score
              FROM hotels AS m
              JOIN rating AS r ON m.hotelId = r.hotelId
              GROUP BY r.hotelId

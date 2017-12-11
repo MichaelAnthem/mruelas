@@ -14,11 +14,11 @@ if(isset($_POST['submit'])){
 
 function addHotel(){
     global $conn;
-    $sql = "INSERT INTO hotels ///hotel sql//////
-            (title, type, category, categoryId) 
-            VALUES (:title, :type, :category, :categoryId)";
+    $sql = "INSERT INTO hotels
+            (cost, type, category, categoryId) 
+            VALUES (:cost, :type, :category, :categoryId)";
             $namedParameters = array();
-            $namedParameters[":title"] = $_POST['title'];
+            $namedParameters[":cost"] = $_POST['cost'];
             $namedParameters[":type"] = $_POST['type'];
             $namedParameters[":category"] = $_POST['category'];
             $namedParameters[":categoryId"] = $_POST['categoryId'];
@@ -66,7 +66,7 @@ function addHotel(){
      </form>
 </nav> 
 <form method="post">
-   Hotel Cost:  <input type="text" name="title"/><br>
+   Hotel Cost:  <input type="text" name="cost"/><br>
    Hotel Type:  <input type="text" name="type"/><br>
        Level:
     <select name="category">
